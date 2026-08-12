@@ -1,0 +1,33 @@
+---
+---
+
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}'
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+:root[data-bs-theme='light'] {
+  --link-color: #5b4fe9;
+  --toc-highlight: #5b4fe9;
+  --checkbox-checked-color: #5b4fe9;
+  --btn-share-hover-color: #5b4fe9;
+  --tag-hover: rgb(91 79 233 / 12%);
+  --categories-icon-hover-color: #5b4fe9;
+}
+
+:root[data-bs-theme='dark'] {
+  --link-color: #a599ff;
+  --toc-highlight: #a599ff;
+  --checkbox-checked-color: #a599ff;
+  --btn-share-hover-color: #a599ff;
+  --tag-hover: rgb(165 153 255 / 16%);
+  --categories-icon-hover-color: #a599ff;
+}
