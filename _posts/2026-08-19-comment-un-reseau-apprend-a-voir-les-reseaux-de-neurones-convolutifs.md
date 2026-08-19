@@ -62,7 +62,7 @@ Le même petit jeu de poids — appelé **filter bank**, ou simplement filtre �
 
 Le schéma ci-dessous illustre ce mécanisme : à la position 1 et à la position 2, c'est exactement le **même** filtre de 9 poids qui est appliqué — seule sa position sur l'image change.
 
-![Mécanisme du partage de poids dans une couche convolutive]({{ '/assets/img/posts/convnet-shared-weights.svg' | relative_url }})
+![Mécanisme du partage de poids dans une couche convolutive](/assets/img/posts/convnet-shared-weights.svg)
 _Le même filtre glisse sur toute l'image ; ses poids ne changent jamais, seule sa position change. Le résultat forme une feature map, ensuite réduite par le pooling._
 
 **L'effet sur le nombre de poids est spectaculaire.** Reprenons l'exemple d'une image de 100×100 pixels, avec un filtre de 5×5 :
