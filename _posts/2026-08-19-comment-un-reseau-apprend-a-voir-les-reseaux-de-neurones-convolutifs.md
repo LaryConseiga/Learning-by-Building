@@ -151,6 +151,6 @@ Prochain article : on quitte le terrain des images fixes pour celui des séquenc
 
 ---
 
-*Le code accompagnant cet article — une implémentation d'un petit ConvNet from scratch, avec convolution, ReLU et max pooling codés à la main — est disponible sur [GitHub](https://github.com/LaryConseiga/convnet-from-scratch){:target="_blank"}.*
+*Le code accompagnant cet article — une implémentation d'un petit ConvNet from scratch, avec convolution, ReLU et max pooling codés à la main — est disponible sur [GitHub](https://github.com/LaryConseiga/Learning-by-Building/tree/main/projects/convnet-from-scratch){:target="_blank"}.*
 
 [^lecun2015]: LeCun, Y., Bengio, Y. & Hinton, G. Deep learning. *Nature* **521**, 436–444 (2015). [https://doi.org/10.1038/nature14539](https://doi.org/10.1038/nature14539){:target="_blank"}

@@ -12,7 +12,7 @@ Je démarre cette semaine un programme d'auto-formation structuré en deep learn
 
 Le fil rouge de cette semaine 1 est un texte fondateur : *Deep Learning*, publié par Yann LeCun, Yoshua Bengio et Geoffrey Hinton dans *Nature* en 2015[^lecun2015]. Ce n'est pas un article de recherche technique pointu — c'est une synthèse écrite par trois des chercheurs qui ont le plus contribué à faire du deep learning ce qu'il est aujourd'hui, destinée à un public scientifique large. C'est donc un excellent point d'entrée.
 
-Cet article couvre trois choses : **pourquoi** le deep learning a changé la donne par rapport au machine learning classique, **comment** un réseau de neurones apprend concrètement (l'apprentissage supervisé), et **par quel mécanisme mathématique** cet apprentissage se propage à travers toutes les couches d'un réseau (la rétropropagation, ou *backpropagation*). Le code associé (implémentation d'un perceptron multicouche from scratch) est disponible dans [ce dépôt GitHub](https://github.com/LaryConseiga/mlp-from-scratch){:target="_blank"}.
+Cet article couvre trois choses : **pourquoi** le deep learning a changé la donne par rapport au machine learning classique, **comment** un réseau de neurones apprend concrètement (l'apprentissage supervisé), et **par quel mécanisme mathématique** cet apprentissage se propage à travers toutes les couches d'un réseau (la rétropropagation, ou *backpropagation*). Le code associé (implémentation d'un perceptron multicouche from scratch) est disponible dans [ce dépôt GitHub](https://github.com/LaryConseiga/Learning-by-Building/tree/main/projects/mlp-from-scratch){:target="_blank"}.
 
 ## Le problème que le deep learning est venu résoudre
 
@@ -226,6 +226,6 @@ La semaine prochaine, on passera des perceptrons multicouches génériques à un
 
 ---
 
-*Le code accompagnant cet article — une implémentation d'un perceptron multicouche et de la rétropropagation, entièrement from scratch (sans framework de deep learning) — est disponible sur [GitHub](https://github.com/LaryConseiga/mlp-from-scratch){:target="_blank"}.*
+*Le code accompagnant cet article — une implémentation d'un perceptron multicouche et de la rétropropagation, entièrement from scratch (sans framework de deep learning) — est disponible sur [GitHub](https://github.com/LaryConseiga/Learning-by-Building/tree/main/projects/mlp-from-scratch){:target="_blank"}.*
 
 [^lecun2015]: LeCun, Y., Bengio, Y. & Hinton, G. Deep learning. *Nature* **521**, 436–444 (2015). [https://doi.org/10.1038/nature14539](https://doi.org/10.1038/nature14539){:target="_blank"}

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+outputs/*.png
+outputs/*.gif
+data/
+.venv/
