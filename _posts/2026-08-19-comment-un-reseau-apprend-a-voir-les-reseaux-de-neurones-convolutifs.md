@@ -8,7 +8,7 @@ math: true
 
 ## Où on en était
 
-Dans le [premier article](/posts/comment-un-reseau-de-neurones-apprend-vraiment/) de cette série, on a vu comment un réseau de neurones apprend : le forward pass, la descente de gradient, et la rétropropagation, le mécanisme qui permet de calculer l'effet de chaque poids sur l'erreur finale, à travers toutes les couches d'un réseau.
+Dans le [premier article]({{ '/posts/comment-un-reseau-de-neurones-apprend-vraiment/' | relative_url }}) de cette série, on a vu comment un réseau de neurones apprend : le forward pass, la descente de gradient, et la rétropropagation, le mécanisme qui permet de calculer l'effet de chaque poids sur l'erreur finale, à travers toutes les couches d'un réseau.
 
 Ce qu'on n'avait pas encore abordé, c'est **l'architecture** elle-même. Un perceptron multicouche classique, dit *fully-connected* (entièrement connecté), applique le même schéma générique quelle que soit la nature des données. Mais pour un problème précis — la vision par ordinateur — cette généricité coûte cher, et une architecture spécialisée s'impose : les **réseaux de neurones convolutifs**, ou **ConvNets** (*Convolutional Neural Networks*, CNN). C'est le sujet de cet article, toujours à partir du texte fondateur de LeCun, Bengio et Hinton[^lecun2015].
 
@@ -62,7 +62,7 @@ Le même petit jeu de poids — appelé **filter bank**, ou simplement filtre �
 
 Le schéma ci-dessous illustre ce mécanisme : à la position 1 et à la position 2, c'est exactement le **même** filtre de 9 poids qui est appliqué — seule sa position sur l'image change.
 
-![Mécanisme du partage de poids dans une couche convolutive](/assets/img/posts/convnet-shared-weights.svg)
+![Mécanisme du partage de poids dans une couche convolutive]({{ '/assets/img/posts/convnet-shared-weights.svg' | relative_url }})
 _Le même filtre glisse sur toute l'image ; ses poids ne changent jamais, seule sa position change. Le résultat forme une feature map, ensuite réduite par le pooling._
 
 **L'effet sur le nombre de poids est spectaculaire.** Reprenons l'exemple d'une image de 100×100 pixels, avec un filtre de 5×5 :
