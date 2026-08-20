@@ -1,0 +1,37 @@
+<svg width="100%" viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Mécanisme d'attention dans un décodeur</title>
+<desc>Le décodeur, en train de générer le mot noir, compare son état à chaque mot de la phrase source et leur assigne un poids de pertinence différent, matérialisé par l'épaisseur des lignes.</desc>
+
+<rect width="680" height="300" fill="#FFFFFF"/>
+
+<text x="40" y="30" font-size="12" fill="#5F5E5A">Phrase source (encodeur)</text>
+
+<rect x="40" y="45" width="80" height="40" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.5"/>
+<text x="80" y="70" font-size="14" font-weight="600" fill="#2C2C2A" text-anchor="middle">the</text>
+
+<rect x="140" y="45" width="80" height="40" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.5"/>
+<text x="180" y="70" font-size="14" font-weight="600" fill="#2C2C2A" text-anchor="middle">cat</text>
+
+<rect x="240" y="45" width="80" height="40" rx="6" fill="#FAEEDA" stroke="#BA7517" stroke-width="1"/>
+<text x="280" y="70" font-size="14" font-weight="600" fill="#633806" text-anchor="middle">black</text>
+
+<rect x="340" y="45" width="80" height="40" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.5"/>
+<text x="380" y="70" font-size="14" font-weight="600" fill="#2C2C2A" text-anchor="middle">is</text>
+
+<rect x="440" y="45" width="80" height="40" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.5"/>
+<text x="480" y="70" font-size="14" font-weight="600" fill="#2C2C2A" text-anchor="middle">asleep</text>
+
+<line x1="80" y1="200" x2="80" y2="87" stroke="#BA7517" stroke-width="0.8" opacity="0.25"/>
+<line x1="180" y1="200" x2="180" y2="87" stroke="#BA7517" stroke-width="1.5" opacity="0.4"/>
+<line x1="280" y1="200" x2="280" y2="87" stroke="#BA7517" stroke-width="5" opacity="1"/>
+<line x1="380" y1="200" x2="380" y2="87" stroke="#BA7517" stroke-width="1" opacity="0.3"/>
+<line x1="480" y1="200" x2="480" y2="87" stroke="#BA7517" stroke-width="0.8" opacity="0.2"/>
+
+<rect x="240" y="200" width="80" height="40" rx="6" fill="#EEEDFE" stroke="#7F77DD" stroke-width="0.5"/>
+<text x="280" y="225" font-size="14" font-weight="600" fill="#26215C" text-anchor="middle">noir</text>
+
+<text x="280" y="180" font-size="12" fill="#5F5E5A" text-anchor="middle">Mot en cours de génération (décodeur)</text>
+
+<text x="340" y="270" font-size="12" fill="#5F5E5A" text-anchor="middle">Épaisseur de la ligne = poids d'attention appris</text>
+<text x="340" y="286" font-size="12" fill="#5F5E5A" text-anchor="middle">pour ce mot source, à cet instant précis</text>
+</svg>
