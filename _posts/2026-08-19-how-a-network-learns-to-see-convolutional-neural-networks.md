@@ -4,6 +4,8 @@ date: 2026-08-19 09:00:01 +0000
 categories: [Deep Learning, Computer Vision]
 tags: [deep-learning, cnn, convnets, computer-vision, pooling]
 math: true
+hidden: true
+sitemap: false
 ---
 
 *🇫🇷 [Version française]({{ '/posts/comment-un-reseau-apprend-a-voir-les-reseaux-de-neurones-convolutifs/' | relative_url }})*

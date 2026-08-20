@@ -4,6 +4,8 @@ date: 2026-08-12 09:00:01 +0000
 categories: [Deep Learning, Fundamentals]
 tags: [deep-learning, backpropagation, supervised-learning, neural-networks, mlp]
 math: true
+hidden: true
+sitemap: false
 ---
 
 *🇫🇷 [Version française]({{ '/posts/comment-un-reseau-de-neurones-apprend-vraiment/' | relative_url }})*

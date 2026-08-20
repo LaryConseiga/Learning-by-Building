@@ -4,6 +4,8 @@ date: 2026-08-19 09:30:01 +0000
 categories: [Deep Learning, Natural Language Processing]
 tags: [deep-learning, rnn, lstm, nlp, word-embeddings, attention]
 math: true
+hidden: true
+sitemap: false
 ---
 
 *🇫🇷 [Version française]({{ '/posts/comment-un-reseau-lit-une-phrase-representations-distribuees-rnn-et-lstm/' | relative_url }})*
