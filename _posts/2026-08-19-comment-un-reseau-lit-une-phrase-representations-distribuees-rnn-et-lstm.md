@@ -6,6 +6,8 @@ tags: [deep-learning, rnn, lstm, nlp, word-embeddings, attention]
 math: true
 ---
 
+*🇬🇧 [English version]({{ '/posts/how-a-network-reads-a-sentence-distributed-representations-rnn-and-lstm/' | relative_url }})*
+
 ## Où on en était
 
 Les [deux articles précédents]({{ '/posts/comment-un-reseau-de-neurones-apprend-vraiment/' | relative_url }}) de cette série ont couvert l'apprentissage supervisé, la rétropropagation, puis les réseaux convolutifs (ConvNets), spécialisés dans le traitement des images. Cet article clôt la lecture du texte fondateur de LeCun, Bengio et Hinton[^lecun2015] en changeant de terrain : le **langage**.

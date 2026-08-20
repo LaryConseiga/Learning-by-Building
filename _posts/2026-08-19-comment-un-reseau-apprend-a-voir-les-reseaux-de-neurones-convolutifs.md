@@ -6,6 +6,8 @@ tags: [deep-learning, cnn, convnets, computer-vision, pooling]
 math: true
 ---
 
+*🇬🇧 [English version]({{ '/posts/how-a-network-learns-to-see-convolutional-neural-networks/' | relative_url }})*
+
 ## Où on en était
 
 Dans le [premier article]({{ '/posts/comment-un-reseau-de-neurones-apprend-vraiment/' | relative_url }}) de cette série, on a vu comment un réseau de neurones apprend : le forward pass, la descente de gradient, et la rétropropagation, le mécanisme qui permet de calculer l'effet de chaque poids sur l'erreur finale, à travers toutes les couches d'un réseau.
