@@ -12,7 +12,7 @@ Semaine 3 de mon plan de lecture. Après les MLP, les CNN et les LSTM, on attaqu
 
 Le pitch du papier est presque provocateur : on peut jeter les réseaux récurrents (RNN, LSTM) à la poubelle et ne garder « que » de l'attention. Résultat : un nouveau state-of-the-art en traduction, obtenu en une fraction du temps d'entraînement des modèles précédents (3.5 jours sur 8 GPU contre plusieurs semaines pour la concurrence).
 
-Dans cet article, je reconstruis le raisonnement du papier étape par étape : pourquoi les RNN posent problème, comment fonctionne l'attention concrètement, et comment tout ça s'assemble dans l'architecture complète.
+Dans cet article, je reconstruis le raisonnement du papier étape par étape : pourquoi les RNN posent problème, comment fonctionne l'attention concrètement, et comment tout ça s'assemble dans l'architecture complète. Le code associé (implémentation d'un Transformer from scratch en PyTorch) est disponible dans [ce dépôt GitHub](https://github.com/LaryConseiga/Architecture-Transformer-from-Scratch){:target="_blank"}.
 
 ## Le problème que règle le Transformer
 
@@ -7969,4 +7969,4 @@ Deux détails d'entraînement qui valent le détour :
 - Le masquage causal garde le décodeur honnête pendant l'entraînement parallélisé.
 - Tout ça a un prix : une complexité quadratique en longueur de séquence, encore un sujet de recherche actif aujourd'hui.
 
-**La suite :** je passe à l'implémentation, le Transformer complet en PyTorch (encodeur-décodeur, multi-head attention, positional encoding, masquage) pour vérifier que je comprends vraiment chaque étape, pas juste la formule. À suivre.
+**Pour aller plus loin :** j'ai implémenté le Transformer complet from scratch en PyTorch (encodeur-décodeur, multi-head attention, positional encoding, masquage causal) pour vérifier que je comprends vraiment chaque étape, pas juste la formule. Le code est disponible sur [GitHub](https://github.com/LaryConseiga/Architecture-Transformer-from-Scratch){:target="_blank"}.

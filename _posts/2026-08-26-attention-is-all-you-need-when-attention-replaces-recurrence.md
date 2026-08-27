@@ -14,7 +14,7 @@ Week 3 of my reading plan. After MLPs, CNNs, and LSTMs, it's time for the paper 
 
 The paper's pitch is almost provocative: you can throw recurrent networks (RNNs, LSTMs) in the trash and keep "only" attention. The result: a new state-of-the-art in translation, achieved in a fraction of the training time of previous models (3.5 days on 8 GPUs versus several weeks for the competition).
 
-In this article, I rebuild the paper's reasoning step by step: why RNNs are a problem, how attention actually works, and how it all comes together in the full architecture.
+In this article, I rebuild the paper's reasoning step by step: why RNNs are a problem, how attention actually works, and how it all comes together in the full architecture. The accompanying code (a from-scratch Transformer implementation in PyTorch) is available in [this GitHub repository](https://github.com/LaryConseiga/Architecture-Transformer-from-Scratch){:target="_blank"}.
 
 ## The problem the Transformer solves
 
@@ -7636,4 +7636,4 @@ Two training details worth a closer look:
 - Causal masking keeps the decoder honest during parallelized training.
 - All of this comes at a price: quadratic complexity in sequence length, still an active research topic today.
 
-**Next up:** I move on to implementation, the full Transformer in PyTorch (encoder-decoder, multi-head attention, positional encoding, masking) to check that I truly understand every step, not just the formula. To be continued.
+**Going further:** I implemented the full Transformer from scratch in PyTorch (encoder-decoder, multi-head attention, positional encoding, causal masking) to check that I truly understand every step, not just the formula. The code is available on [GitHub](https://github.com/LaryConseiga/Architecture-Transformer-from-Scratch){:target="_blank"}.
